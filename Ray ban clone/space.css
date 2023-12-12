@@ -1,0 +1,48 @@
+/* Basic styling for the space exploration hub */
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    color: #01FF70;
+}
+
+.jumbotron {
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #0074cc;
+    border-color: #0074cc;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+/* Add more CSS styles to customize the appearance */

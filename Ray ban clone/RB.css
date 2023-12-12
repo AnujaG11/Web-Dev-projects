@@ -1,0 +1,194 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "gilroy";
+    box-sizing : border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+  
+    
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    
+}
+#back img{
+    width: 100%;
+    height:100%;
+    object-fit:cover ;
+
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+   
+}
+
+#workingarea{
+   position: relative ;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+   
+}
+
+#nav{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nleft, #nright{
+    display: flex;
+    align-items: center;
+    gap: 60px
+}
+
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px ;
+    font-weight: 600;
+    color: #fff;
+  
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform:translate(0% , -50%) ;
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+    
+   
+}
+
+#heroleft{
+    min-width: 50%;
+
+}
+#heroleft .elem{
+    height:9vw ;
+   
+}
+
+#heroleft .elem h1{
+    line-height: 1.8;
+    font-family: "kajiro";
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#heroleft button{
+    pointer-events: all;
+    padding:  .009vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: "kajiro";
+}
+#heroright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25%;
+    color: #fff;
+}
+#heroright p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
+#heroright #imagediv{
+    width: 100%;
+height: 100px;
+margin-top: 20px;
+margin-bottom: 30px;
+background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.campaignmonitor.com%2Fblog%2Femail-marketing%2Fcreating-a-countdown-gif-timer%2F&psig=AOvVaw2ONh0O0uQs7pG3R2NBMOo6&ust=1700908595707000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiVk7e43IIDFQAAAAAdAAAAABAE) ;   
+background-size: cover ;
+background-position:center ;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: rgba(100, 100, 100, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+
